@@ -1,0 +1,45 @@
+.body{
+    color:white;
+    text-align: center;
+}
+.header{
+
+}
+.intro{
+    background-image: url(/Images/drive.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.intro{
+    margin: 0px;
+    width: 900px;
+    height: 100%;
+    padding: 30px;
+}
+.logo{
+    margin: 7px;
+    color: white;
+}
+.nav ul{
+    display: flex;
+    color: white;
+
+}
+.intro{
+    display: inline-block;
+}
+.log2{
+    float: right;
+    margin: 0px;
+    padding
+
+    
+    
+}
+.nav li{
+    display: inline-block;
+    margin: 20px;
+    color: white;
+}

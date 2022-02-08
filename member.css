@@ -42,7 +42,7 @@ header{
     left: 261px;
     width: 415px;
     height: 42px;
-    radius: 10px;
+    /* radius: 10px; */
     border: solid 1px;
     border-radius: 10px;
 }

@@ -7,8 +7,12 @@ nav{
 
 }
 #navdiv ul{
+    position: relative;
+    color: white;
+    left: 50px;
+    top: -10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
-    
+
 }

@@ -20,10 +20,14 @@ header{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    width: 75%;
+    float: right;
 }
 .nav{
     height: 603px;
     width: 1024px;
-    border: solid 1px red;
     width: 100%;
+    background-color: #FF5700;
 }

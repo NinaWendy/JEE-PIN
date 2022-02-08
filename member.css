@@ -81,10 +81,32 @@
     width: 405px;
     height: 40px;
 }
-.navend{
+#navend{
     width: 100%;
     height:126px;
     position: relative;
     top: 300px;
     background-color: #2FA5B521;
+}
+#buttonsanavend, #buttonsbnavend{
+    display: flex;
+    justify-content: space-evenly;
+}
+#navend input{
+    width: 175px;
+    height: 46px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+}
+#buttonsanavend{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#buttonsbnavend{
+    position: relative;
+    top: 25px;
+    left: 10px;
 }

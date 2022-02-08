@@ -3,22 +3,49 @@
     padding: 0;
     margin: 0;
 }
+header{
+    width: 100%;
+}
 .nav #h1nav{
     position: relative;
-    top: 20px;
-    left: 15px;
+    top: 10px;
+    left: 50px;
 
 }
 #navdiv ul{
     position: relative;
     color: white;
     left: 50px;
-    top: -10px;
+    top: 67px;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    width: 75%;
+    float: right;
 }
 .nav{
     height: 603px;
     width: 1024px;
+    width: 100%;
+    background-color: #FF5700;
+}
+#navvideo{
+    position: relative;
+    top: 199px;
+    left: 38px;
+}
+#navbutton{
+    position: relative;
+    top: 126px;
+    left: 261px;
+    width: 415px;
+    height: 42px;
+    radius: 10px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+#navbutton:hover{
+    color: rgb(73, 237, 243);
 }

@@ -5,6 +5,7 @@
 }
 header{
     width: 100%;
+
 }
 .nav #h1nav{
     position: relative;
@@ -27,7 +28,7 @@ header{
 }
 .nav{
     height: 603px;
-    width: 1024px;
+    /* width: 1024px; */
     width: 100%;
     background-color: #FF5700;
 }

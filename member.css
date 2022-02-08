@@ -49,3 +49,18 @@ header{
 #navbutton:hover{
     color: rgb(73, 237, 243);
 }
+.navmid{
+    display: flex;
+    flex-direction: row;
+}
+#navwhatever{
+    height: 155px;
+    width: 457px;
+    color: white;
+    font-size: 60px;
+    font-weight: 700px;
+    position: relative;
+    top: 198px;
+    left: 486px;
+    font-style: barlow;
+}

@@ -64,4 +64,6 @@ header{
     top: 198px;
     left: 486px;
     font-style: barlow;
+    display: flex;
+    flex-direction: column;
 }

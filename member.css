@@ -110,3 +110,11 @@
     top: 25px;
     left: 10px;
 }
+p{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 500px;
+    line-height: 48px;
+}

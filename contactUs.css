@@ -1,0 +1,29 @@
+.contact{
+    background-image: url(Images/sale.jpg);
+    background-position: center;
+    height: 80vh;
+    background-size: cover;
+}
+.conc{
+    height: 100%;
+    width: 100%;
+
+}
+ul li{
+    float: left;
+    list-style-type: none;
+}
+ul li a{
+    padding: 40px;
+    display: inline;
+}
+.keys{
+    text-align: center;
+    width: fit-content;
+    padding: 200px;
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: red;
+}

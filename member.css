@@ -125,3 +125,92 @@ p{
     font-weight: 500px;
     line-height: 48px;
 }
+.mainrowdiv{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-around; */
+
+}
+#acura1, #acura2, #acura3, #acura4{
+    height: 284px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+#acura1 img{
+    width: 200px;
+    height: 150px;
+}
+#acura2 img{
+    width: 200px;
+    height: 150px;
+}
+#acura3 img{
+    width: 200px;
+    height: 150px;
+}
+#acura4 img{
+    width: 200px;
+    height: 150px;
+}
+#acura1 p{
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    font: Lato;
+    display: flex;
+    flex-direction: column;
+    line-height: 21.6px;
+}
+#acura2 p{
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    font: Lato;
+    display: flex;
+    flex-direction: column;
+    line-height: 21.6px;
+}
+#acura3 p{
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    font: Lato;
+    display: flex;
+    flex-direction: column;
+    line-height: 21.6px;
+}
+#acura4 p{
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    font: Lato;
+    display: flex;
+    flex-direction: column;
+    line-height: 21.6px;
+}
+#acura1 p span{
+    color: #FF5700;
+}
+#acura2 p span{
+    color: #FF5700;
+}
+#acura3 p span{
+    color: #FF5700;
+}
+#acura4 p span{
+    color: #FF5700;
+}
+#acura1 ul{
+    font-size: large;
+}
+#acura2 ul{
+    font-size: large;
+}
+#acura3 ul{
+    font-size: large;
+}
+#acura4 ul{
+    font-size: large;
+}

@@ -24,15 +24,6 @@
     border-radius: 0px;
 
 }
-.fourstar{
-    width: 1%;
-    padding-left: 6em;
-    padding-top: 1em;
-    padding-bottom: 2em;
-    padding-right: 5em;
-    margin-top: -1em;
-    /* height: 1em; */
-}
 /* #vs{
     background-color: black;
     color: white;
@@ -54,4 +45,7 @@
 }
 .cars4{
     display: flex;
+}
+.cars{
+    width: 100%;
 }

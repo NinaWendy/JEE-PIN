@@ -37,7 +37,7 @@ li {
     background-size: cover;
     color: white;
     background-blend-mode: darken;
-
+    margin-bottom: -3em;
   
 }
 
@@ -57,3 +57,30 @@ h1{
     padding-bottom: 15em;
     word-spacing: 0.5em;
 }
+
+.services-box{
+    background: orangered;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding: 8em;
+  
+   
+}
+
+
+.service{
+    margin-bottom: 3em;
+}
+
+.small-car, .key{
+    font-size: 2em;
+    margin-left: 3em;
+}
+
+.spanner{
+    font-size: 2em;
+    margin-left: 1em;
+}
+

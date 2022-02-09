@@ -33,3 +33,16 @@
     margin-top: -1em;
     /* height: 1em; */
 }
+/* #vs{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+    width: 3.0%;
+    height: 3.0%;
+
+} */
+.cars1{
+    display: flex;
+    justify-content: baseline;
+}

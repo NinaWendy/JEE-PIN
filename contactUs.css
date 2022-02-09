@@ -12,15 +12,19 @@
 ul li{
     float: left;
     list-style-type: none;
+    
 }
 ul li a{
-    padding: 40px;
+    padding: 30px;
+    margin-top: 2px ;
     display: inline;
+    justify-content: center;
 }
 .keys{
     text-align: center;
-    width: fit-content;
-    padding: 200px;
+    padding: 230px;
+    justify-content: center; 
+    
 }
 button{
     padding: 5px;
@@ -33,6 +37,7 @@ button{
 .middle{
     display: flex;
     flex-direction: row;
+    justify-content:  center;
 }
 .middle1{
     justify-content: center;
@@ -64,4 +69,44 @@ button{
     align-items: center;
     text-align: center;
     background-color: red;
+}
+.faqs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h5{
+    color: orangered;
+}
+
+.calls{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    padding: 10px;
+}
+
+.call1a{
+    display: flex;
+}
+.downtown{
+    background-color: black;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img{
+    display: flex;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+.offers{
+    display: grid;
+    text-align: justify;
 }

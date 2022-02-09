@@ -1,11 +1,14 @@
 *{
     box-sizing: border-box;
-    padding: 0;
+    /* padding: 0; */
     margin: 0;
 }
-header{
+#header{
     width: 100%;
+    height: 750px;
+    background-color: #FF5700;
 }
+
 .nav #h1nav{
     position: relative;
     top: 10px;
@@ -26,10 +29,10 @@ header{
     float: right;
 }
 .nav{
-    height: 603px;
-    width: 1024px;
+    /* height: 603px; */
+    /* width: 1024px; */
     width: 100%;
-    background-color: #FF5700;
+
 }
 #navvideo{
     position: relative;
@@ -57,10 +60,236 @@ header{
     height: 155px;
     width: 457px;
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700px;
     position: relative;
     top: 198px;
     left: 486px;
     font-style: barlow;
+    display: flex;
+    flex-direction: column;
+}
+#pwhatever{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    /* position: relative; */
+    top: 362px;
+    left:498px;
+    width: 405px;
+    height: 40px;
+}
+#navend{
+    width: 100%;
+    height:126px;
+    position: relative;
+    top: 300px;
+    background-color: #2FA5B521;
+}
+#buttonsanavend, #buttonsbnavend{
+    display: flex;
+    justify-content: space-evenly;
+}
+#navend input{
+    width: 175px;
+    height: 46px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+}
+#buttonsanavend{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#buttonsbnavend{
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+main{
+    position: relative;
+    margin-top: 34px;
+    width: 100%;
+    height: 4472px;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 500px;
+    line-height: 48px;
+}
+.mainrowdiv{
+    /* position: relative; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 54px;
+
+}
+#acura1, #acura2, #acura3, #acura4{
+    height: 284px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* position: relative; */
+    margin-bottom: 65px;
+}
+#acura1 img{
+    width: 200px;
+    height: 150px;
+}
+#acura2 img{
+    width: 200px;
+    height: 150px;
+}
+#acura3 img{
+    width: 200px;
+    height: 150px;
+}
+#acura4 img{
+    width: 200px;
+    height: 150px;
+}
+#acura1 p{
+    margin-top: 23px;
+    margin-left: 15px;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    font: Lato;
+    display: flex;
+    flex-direction: column;
+    line-height: 21.6px;
+}
+#acura2 p{
+    margin-top: 23px;
+    margin-left: 15px;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    font: Lato;
+    display: flex;
+    flex-direction: column;
+    line-height: 21.6px;
+}
+#acura3 p{
+    margin-top: 23px;
+    margin-left: 15px;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    font: Lato;
+    display: flex;
+    flex-direction: column;
+    line-height: 21.6px;
+}
+#acura4 p{
+    margin-top: 23px;
+    margin-left: 15px;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    font: Lato;
+    display: flex;
+    flex-direction: column;
+    line-height: 21.6px;
+}
+#acura1 p span{
+    color: #FF5700;
+}
+#acura2 p span{
+    color: #FF5700;
+}
+#acura3 p span{
+    color: #FF5700;
+}
+#acura4 p span{
+    color: #FF5700;
+}
+#acura1 ul{
+    font-size: large;
+}
+#acura2 ul{
+    font-size: large;
+}
+#acura3 ul{
+    font-size: large;
+}
+#acura4 ul{
+    font-size: large;
+}
+#acura4 i{
+    float: right;
+    color: #FF5700;
+    position: relative;
+    right: 9px;
+}
+#acura3 i{
+    float: right;
+    color: #FF5700;
+    position: relative;
+    right: 9px;
+}
+#acura2 i{
+    float: right;
+    color: #FF5700;
+    position: relative;
+    right: 9px;
+}
+#acura1 i{
+    float: right;
+    color: #FF5700;
+    position: relative;
+    right: 9px;
+}
+
+#morebutton{
+    /* display: flex;
+    justify-content: center; */
+    height: 44px;
+    width: 227px;
+    position: relative;
+    left: 45%;
+/* top: 3471px; */
+    border-radius: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400px;
+}
+.contacts{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    border-radius: 0px;
+    background: rgba(255, 87, 0, 1);
+}
+.lastdiv{
+    color: white;
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
+    height: 800px;
+}
+#experience{
+    position: relative;
 }

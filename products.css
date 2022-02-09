@@ -49,3 +49,49 @@
 .cars{
     width: 100%;
 }
+.hae{
+    display: flex;
+    margin-top: 40px;
+}
+
+#low1{
+text-align: center;
+}
+
+#low1 h2{
+    color: red;
+}
+#low1 p{
+    margin-top: 25px;
+}
+
+#hae1{
+    margin-right: 20px;
+
+}#hae1{
+background-color: red;
+}
+.hae{
+    background-color: red;
+}
+#hae2{
+    margin-right: 20px;
+    color: white;
+    background-color: black;
+}
+
+#hae3{
+    margin-right: 20px;
+    color: white;
+    background-color: black;
+}
+#hae4{
+    color: white;
+    background-color: black;  
+}
+.low{
+    background-image: url("Images/jipin.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

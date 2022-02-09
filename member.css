@@ -276,21 +276,3 @@ p{
     line-height: 24px;
     font-weight: 400px;
 }
-.contacts{
-    height: 250px;
-    /* width: 100%; */
-    position: relative;
-    top: 100px;
-    border-radius: 0px;
-    background: rgba(255, 87, 0, 1);
-}
-.lastdiv{
-    color: white;
-    width: 100%;
-    background: rgba(0, 0, 0, 1);
-    height: 800px;
-    display: flex;
-}
-#experience{
-    position: relative;
-}

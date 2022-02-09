@@ -312,6 +312,16 @@ p{
 #experience h3{
     text-align: center;
 }
-/* #services ul{
-    list-style-type:;
-} */
+#services ul{
+    margin-top: 12px;
+}
+#visit p{
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: 300px;
+    font-style: "Roboto";
+    line-height: 21.09px;
+    text-align:center;
+    width: 250px;
+    height: 120px;
+}

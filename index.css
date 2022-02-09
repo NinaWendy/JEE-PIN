@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 2em;
+}
+
+.header-section{
+padding-left: 2em;
 }
 
 
@@ -17,6 +26,17 @@ a {
 
 li {
     display: inline-block;
-    padding: 0 1em;
-    
+    padding: 0 1em; 
+}
+
+
+h1{
+    font-size: 4em;
+}
+
+
+.extra-mile{
+    margin-top: 10em;
+    padding-left: 3em;
+    padding-left: 3em;
 }

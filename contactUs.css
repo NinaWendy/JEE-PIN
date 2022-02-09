@@ -97,3 +97,16 @@ h5{
     align-items: center;
     text-align: center;
 }
+.img{
+    display: flex;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+.offers{
+    display: grid;
+    text-align: justify;
+}

@@ -1,149 +1,144 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Barlow', sans-serif;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     padding-top: 2em;
 }
 
-.header-section{
-padding-left: 2em;
+.header-section {
+    padding-left: 2em;
 }
 
 
 a {
-    text-decoration: none ;
+    text-decoration: none;
     color: white;
 }
 
 li {
     display: inline-block;
-    padding: 0 1em; 
-   
+    padding: 0 1em;
 }
 
 
-.img-1{
-    background: rgba(0, 0, 0, 0.6)  url("Images/car.jpeg") no-repeat center center ; 
+.img-1 {
+    background: rgba(0, 0, 0, 0.6) url("Images/car.jpeg") no-repeat center center;
     background-size: cover;
     color: white;
     background-blend-mode: darken;
     margin-bottom: -3em;
-  
 }
 
 
-h1{
+h1 {
     font-size: 4em;
 }
 
 
-.extra-mile{
+.extra-mile {
     margin-top: 10em;
-    padding-left: 3em; 
+    padding-left: 3em;
 }
 
-.description{
+.description {
     padding-top: 1.5em;
     padding-bottom: 15em;
     word-spacing: 0.5em;
 }
 
-.services-box{
+.services-box {
     background: orangered;
     display: flex;
     justify-content: space-around;
     margin-left: 3em;
     margin-right: 3em;
     padding: 8em;
-    
-    
 }
 
 
 
-.small-car, .key{
+.small-car,
+.key {
     font-size: 2em;
     margin-left: 3em;
 }
 
-.spanner{
+.spanner {
     font-size: 2em;
     margin-left: 1em;
 }
 
-.third-container{
+.third-container {
     display: flex;
     justify-content: space-around;
     margin-bottom: 1em;
 }
 
 
-.jeep{
-padding-bottom: em;
-}
 
 
-.about-box{
+.about-box {
     padding-top: 15em;
 }
 
-.about{
+.about {
     margin-bottom: 1em;
     color: orangered;
 }
 
-.learn{
+.learn {
     background: orangered;
     padding: 0.8em;
     border: none;
     border-radius: 0.5em;
     margin-top: 1em;
-   font-size: 1em;
+    font-size: 1em;
 }
 
-.brand{
+.brand {
     text-align: center;
     margin-top: 5em;
     margin-bottom: 3em;
 }
 
-.unsure{
+.unsure {
     margin-top: 1.5em;
     word-spacing: 0.2em;
 }
 
 
-.car-container{
-    display:flex;
+.car-container {
+    display: flex;
     margin: 2em;
     margin-left: 30em;
-   
-    
 }
 
-.img-2, .img-3, .img-4{
+.img-2,
+.img-3,
+.img-4 {
     margin-right: 2em;
 }
 
 
-.service{
-    margin-top: 1em;  
+.service {
+    margin-top: 1em;
     font-size: 1.5em;
     color: papayawhip;
 }
 
 
-.contact-container{
+.contact-container {
     display: flex;
     justify-content: space-evenly;
     background: orangered;
@@ -153,15 +148,31 @@ padding-bottom: em;
 }
 
 
-.hr{
+.hr {
     font-size: 3em;
     font-weight: lighter;
 }
 
-.call-outline {
-   
+.last-box {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    margin-top: 3em;
+    padding-top: 2em;
+    padding-bottom: 3em;
 }
 
-.mail-outline{
+.text {
+    margin-top: 1em;
+}
 
+.media-icons {
+    margin-top: 2em;
+    font-size: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
 }

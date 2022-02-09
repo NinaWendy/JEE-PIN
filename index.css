@@ -22,11 +22,23 @@ padding-left: 2em;
 
 a {
     text-decoration: none ;
+    color: white;
 }
 
 li {
     display: inline-block;
     padding: 0 1em; 
+   
+}
+
+
+.img-1{
+    background: rgba(0, 0, 0, 0.6)  url("Images/car.jpeg") no-repeat center center ; 
+    background-size: cover;
+    color: white;
+    background-blend-mode: darken;
+
+  
 }
 
 
@@ -37,6 +49,11 @@ h1{
 
 .extra-mile{
     margin-top: 10em;
-    padding-left: 3em;
-    padding-left: 3em;
+    padding-left: 3em; 
+}
+
+.description{
+    padding-top: 1.5em;
+    padding-bottom: 15em;
+    word-spacing: 0.5em;
 }

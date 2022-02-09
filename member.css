@@ -264,28 +264,32 @@ p{
     /* display: flex;
     justify-content: center; */
     height: 44px;
-width: 227px;
-position: relative;
-left: 45%;
+    width: 227px;
+    position: relative;
+    left: 45%;
 /* top: 3471px; */
-border-radius: 20px;
-padding: 10px;
-background: rgba(0, 0, 0, 1);
-color: white;
-font-size: 20px;
-line-height: 24px;
-font-weight: 400px;
+    border-radius: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400px;
 }
 .contacts{
-    height: 137px;
-width: 100%;
-position: relative;
-top: 100px;
-border-radius: 0px;
-background: rgba(255, 87, 0, 1);
+    height: 250px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    border-radius: 0px;
+    background: rgba(255, 87, 0, 1);
 }
 .lastdiv{
+    color: white;
     width: 100%;
     background: rgba(0, 0, 0, 1);
     height: 800px;
+}
+#experience{
+    position: relative;
 }

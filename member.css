@@ -284,3 +284,34 @@ p{
     color: white;
     justify-content: space-around;
 }
+.lastdiv{
+    margin-top: 43px;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#experience, #services, #visit{
+    margin-top: 43px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 259px;
+}
+#experience p{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 300px;
+    font-style: "Roboto";
+    line-height: 21.09px;
+    text-align:center;
+    width: 250px;
+    height: 120px;
+}
+#experience h3{
+    text-align: center;
+}
+/* #services ul{
+    list-style-type:;
+} */

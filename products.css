@@ -11,40 +11,38 @@
 
 }
 .intro{
-    background-image: url(Images/drive.jpeg);
+    background-image: url("Images/drive.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;   
 }
-.intro{
-    margin: 0px;
-    width: 900px;
-    height: 100%;
-    padding: 30px;
+.cars1 #car1 img{
+    height: 200px;
+    width: 300px;
+    left: -569px;
+    top: 474px;
+    border-radius: 0px;
+
 }
-.logo{
-    margin: 7px;
+.fourstar{
+    width: 1%;
+    padding-left: 6em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-right: 5em;
+    margin-top: -1em;
+    /* height: 1em; */
+}
+/* #vs{
+    background-color: black;
     color: white;
-}
-.nav ul{
+    padding: 4px;
+    border-radius: 8px;
+    width: 3.0%;
+    height: 3.0%;
+
+} */
+.cars1{
     display: flex;
-    color: white;
-
-}
-.intro{
-    display: inline-block;
-}
-.log2{
-    float: right;
-    margin: 0px;
-    padding
-
-    
-    
-}
-.nav li{
-    display: inline-block;
-    margin: 20px;
-    color: white;
+    justify-content: baseline;
 }

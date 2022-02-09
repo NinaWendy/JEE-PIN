@@ -276,3 +276,11 @@ p{
     line-height: 24px;
     font-weight: 400px;
 }
+.contacts{
+    height: 137px;
+    width: 100%;
+    background-color: #FF5700;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}

@@ -143,3 +143,25 @@ padding-bottom: em;
 }
 
 
+.contact-container{
+    display: flex;
+    justify-content: space-evenly;
+    background: orangered;
+    color: white;
+    padding: 3em;
+    font-size: 1.3em;
+}
+
+
+.hr{
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+.call-outline {
+   
+}
+
+.mail-outline{
+
+}

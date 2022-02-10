@@ -29,6 +29,7 @@ a {
 li {
     display: inline-block;
     padding: 0 1em;
+    font-size: 1.3em;
 }
 
 
@@ -38,11 +39,13 @@ li {
     color: white;
     background-blend-mode: darken;
     margin-bottom: -3em;
+    height: 100vh;
 }
 
 
 h1 {
-    font-size: 4em;
+    margin-top: 2.5em;
+    font-size: 7em;
 }
 
 
@@ -52,18 +55,23 @@ h1 {
 }
 
 .description {
-    padding-top: 1.5em;
+    padding-top: 2em;
     padding-bottom: 15em;
     word-spacing: 0.5em;
+    font-size: 1.7em;
+    margin-top: -2em;
 }
 
 .services-box {
     background: orangered;
     display: flex;
     justify-content: space-around;
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 13em;
+    margin-right: 13em;
     padding: 8em;
+    padding-bottom: 5em;
+    font-size: 1.23em;
+    margin-top: -6em;
 }
 
 
@@ -71,25 +79,32 @@ h1 {
 .small-car,
 .key {
     font-size: 2em;
-    margin-left: 3em;
+    margin-left: 1.5em;
 }
 
 .spanner {
     font-size: 2em;
-    margin-left: 1em;
+    margin-left: 0.8em;
 }
 
 .third-container {
     display: flex;
     justify-content: space-around;
     margin-bottom: 1em;
+    margin-left: 8em;
+}
+
+.jeep{
+    width: 100%;
+    margin-left: 0em;
 }
 
 
-
-
 .about-box {
-    padding-top: 15em;
+    padding-top: 6em;
+    margin-right: 12em;
+    font-size: 1.4em;
+    display: grid;
 }
 
 .about {
@@ -99,44 +114,58 @@ h1 {
 
 .learn {
     background: orangered;
-    padding: 0.8em;
+    padding: 1.5em;
+    cursor: pointer;
+    padding-right: em;
+    padding-left: em;
+    padding-bottom: em;
     border: none;
-    border-radius: 0.5em;
-    margin-top: 1em;
-    font-size: 1em;
+    border-radius: 1.2em;
+    font-size: 0.7em;
 }
 
 .brand {
     text-align: center;
     margin-top: 5em;
     margin-bottom: 3em;
+    font-size: 1.3em;
 }
 
 .unsure {
     margin-top: 1.5em;
     word-spacing: 0.2em;
+    font-size: 1.3em;
 }
 
 
 .car-container {
     display: flex;
     margin: 2em;
-    margin-left: 30em;
+    margin-left: 20em;
 }
 
 .img-2,
 .img-3,
-.img-4 {
-    margin-right: 2em;
+.img-4{
+    margin-right: 8em;
 }
 
 
+
+
 .service {
-    margin-top: 1em;
+    margin-top: 3em;
+    margin-right: 4em;
     font-size: 1.5em;
     color: papayawhip;
 }
 
+
+.arrow-forward{
+    margin-left:5em ;
+    margin-bottom: 5rem;
+    margin-top: -1em;
+}
 
 .contact-container {
     display: flex;
@@ -145,12 +174,14 @@ h1 {
     color: white;
     padding: 3em;
     font-size: 1.3em;
+    
 }
 
 
 .hr {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: lighter;
+    margin-right: 5em;
 }
 
 .last-box {
@@ -165,6 +196,7 @@ h1 {
 
 .text {
     margin-top: 1em;
+    font-size: 1.2em;
 }
 
 .media-icons {
@@ -174,5 +206,31 @@ h1 {
 
 footer {
     text-align: center;
-    padding: 2em;
+    padding: 2.2em;
+}
+
+.hr2{
+    width:5%;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    height: 0.3em;
+    background-color: orangered;
+    border: none;
+}
+
+.hr3{
+    margin-right: 39.2em;
+    margin-left: 1.3em;
+    height: 0.3em;
+    border: none;
+    background-color: orangered;
+}
+
+.aim{
+    margin-left: 4em;
+}
+
+.best{
+    margin-right: 4em;
 }

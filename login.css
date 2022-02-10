@@ -7,7 +7,7 @@
     background-size: cover;
     font-family: poppins;}body{
     /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("image/open.jpg"); */
-    background: rgba(0, 0, 0, 0.7) url("image/open.jpg");
+    background: rgba(0, 0, 0, 0.7) url("Images/open.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;

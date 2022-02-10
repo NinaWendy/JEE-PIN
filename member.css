@@ -418,3 +418,8 @@ footer{
 footer p{
     font-size: 20px;
 }
+#socials{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}

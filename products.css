@@ -3,6 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+.logo{
+    color: white;
+}
+.nav ul li a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.body{
+    margin-top: 300px;
+}
+
 .body{
     color:white;
     text-align: center;
@@ -53,12 +71,21 @@
     display: flex;
 }
 .cars{
-    width: 100%;
+    margin-left: 30%;
+    
 }
 .hae{
     display: flex;
     margin-top: 40px;
 
+}
+.at{
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.at .search-btn{
+    background-color: orangered;
 }
 
 #low1{
@@ -125,3 +152,14 @@ background-color: red;
 .mid h1 span{
 color: black;
 }
+.log2 img{
+    height:80px;
+    float: right;
+    padding: 5px
+
+}
+.log2{
+    float: right;
+    display: flex;
+}
+

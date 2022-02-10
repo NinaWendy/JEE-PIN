@@ -45,6 +45,8 @@
     position: relative;
     top: 199px;
     left: 38px;
+    height: 209px;
+    width: 421px;
 }
 #navbutton{
     position: relative;
@@ -88,7 +90,7 @@
     width: 405px;
     height: 40px;
 }
-#navend{
+.navend{
     width: 100%;
     height:126px;
     position: relative;
@@ -99,7 +101,7 @@
     display: flex;
     justify-content: space-evenly;
 }
-#navend input{
+.navend input{
     width: 175px;
     height: 46px;
     position: relative;
@@ -135,36 +137,35 @@ p{
 }
 .mainrowdiv{
     /* position: relative; */
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: row;
     justify-content:space-around;
     margin-top: 54px;
-
 }
 #acura1, #acura2, #acura3, #acura4{
-    height: 284px;
-    width: 200px;
+    height: 350px;
+    width: 250px;
     border-radius: 5px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     /* position: relative; */
     margin-bottom: 65px;
 }
 #acura1 img{
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
 }
 #acura2 img{
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
 }
 #acura3 img{
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
 }
 #acura4 img{
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
 }
 #acura1 p{
     margin-top: 23px;
@@ -232,15 +233,23 @@ p{
 }
 #acura1 ul{
     font-size: large;
+    position: relative;
+    bottom: -20px;
 }
 #acura2 ul{
     font-size: large;
+    position: relative;
+    bottom: -20px;
 }
 #acura3 ul{
     font-size: large;
+    position: relative;
+    bottom: -20px;
 }
 #acura4 ul{
     font-size: large;
+    position: relative;
+    bottom: -20px;
 }
 #acura4 i{
     float: right;
@@ -266,7 +275,18 @@ p{
     position: relative;
     right: 9px;
 }
-
+#acura1 p span{
+    padding: 5px;
+}
+#acura2 p span{
+    padding: 5px;
+}
+#acura3 p span{
+    padding: 5px;
+}
+#acura4 p span{
+    padding: 5px;
+}
 #morebutton{
     /* display: flex;
     justify-content: center; */

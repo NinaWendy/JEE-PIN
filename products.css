@@ -14,16 +14,22 @@
     background-image: url("Images/drive.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
+
 }
-.cars1 #car1 img{
+.intro{
+    /* position: absolute; */
+    height: 617px;
+    width: 100%;
+}
+/* .cars1 #car1 img{
     height: 200px;
     width: 300px;
     left: -569px;
     top: 474px;
     border-radius: 0px;
 
-}
+} */
 /* #vs{
     background-color: black;
     color: white;
@@ -35,7 +41,7 @@
 } */
 .cars1{
     display: flex;
-    justify-content: baseline;
+    /* justify-content: baseline; */
 }
 .cars2{
     display: flex;
@@ -52,6 +58,7 @@
 .hae{
     display: flex;
     margin-top: 40px;
+
 }
 
 #low1{
@@ -107,4 +114,14 @@ background-color: red;
 }
 .mid h1{
     margin-bottom: 20px;
+}
+.foot{
+    background-color: black;
+    color: white;
+}
+.mid h1{
+    color: red;
+}
+.mid h1 span{
+color: black;
 }

@@ -114,7 +114,7 @@ main{
     position: relative;
     margin-top: 34px;
     width: 100%;
-    height: 4472px;
+    /* height: 4200px; */
     display: flex;
     flex-direction: column;
 }
@@ -282,12 +282,30 @@ p{
     background-color: #FF5700;
     display: flex;
     color: white;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.contacts #emailus{
+    padding-top: 32px;
+}
+.contacts #emailus p{
+    font-size: 18px;
+}
+.contacts #callus p{
+    font-size: 18px;
+}
+.contacts #callus{
+    padding-top: 32px;
+}
+.contacts p{
+    position: relative;
+    /* justify-content: center; */
+    right: 32px;
+    /* height: 77px; */
 }
 .lastdiv{
     margin-top: 43px;
     background-color: black;
-    height: 600px;
+    height: 300px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -312,8 +330,16 @@ p{
 #experience h3{
     text-align: center;
 }
+#services h3{
+    text-align: center;
+}
+#visit h3{
+    text-align: center;
+}
 #services ul{
     margin-top: 12px;
+    /* text-align: center; */
+    list-style: none;
 }
 #visit p{
     margin-top: 18px;
@@ -324,4 +350,11 @@ p{
     text-align:center;
     width: 250px;
     height: 120px;
+}
+footer{
+    background-color: white;
+    height: 43px;
+}
+footer p{
+    font-size: 20px;
 }

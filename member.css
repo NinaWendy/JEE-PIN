@@ -13,6 +13,7 @@
     position: relative;
     top: 10px;
     left: 50px;
+    display: flex;
 
 }
 #navdiv ul{
@@ -27,6 +28,12 @@
     font-size: 20px;
     width: 75%;
     float: right;
+}
+#navdiv ul li{
+    color: white;
+}
+#navdiv ul a{
+    text-decoration: none;
 }
 .nav{
     /* height: 603px; */

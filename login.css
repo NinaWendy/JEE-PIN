@@ -5,96 +5,121 @@
     padding: 0;
     box-sizing: border-box;
     background-size: cover;
-    font-family: poppins;}body{
+    font-family: poppins;
+}
+
+body {
     /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("image/open.jpg"); */
     background: rgba(0, 0, 0, 0.7) url("Images/open.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
 }
-h1{
-    color:white;
+
+h1 {
+    color: white;
     margin-left: 2em;
 }
-h2{
+
+h2 {
     color: white;
-    margin-left: 5em;}
-nav{
+    margin-left: 5em;
+}
+
+nav {
     color: white;
     display: flex;
     justify-content: space-between;
     font-size: 1.3em;
 }
-.navbr{
+
+.navbr {
     word-spacing: 1em;
     margin-top: 2em;
     margin-right: 2em;
 }
-.hme{
-    background-color: #FF5700
-;
+
+.hme {
+    background-color: #FF5700;
     padding: 0.5em;
     padding-left: 2em;
     padding-right: 2em;
 }
-a{
+
+a {
     color: white;
-    text-decoration: none;}
-.usr,.pswd,.btn{
+    text-decoration: none;
+}
+
+.usr,
+.pswd,
+.btn {
     padding: 1em;
     border-radius: 2em;
     font-size: 1em;
     margin-top: 1em;
     padding-right: 7em;
     outline: none;
-    border-color:#FF5700;
+    border-color: #FF5700;
 }
-form{
-    display:grid;
+
+form {
+    display: grid;
     margin: 30em;
     margin-top: 10em;
     margin-bottom: 0;
-    margin-left: 27em;}
-.form--hidden{
+    margin-left: 40em;
+}
+
+.form--hidden {
     display: none;
 }
-.form__input-group{
+
+.form__input-group {
     padding-left: 6em;
 }
-.btn{
-    background-color: #FF5700
-;
+
+.btn {
+    background-color: #FF5700;
     margin-top: 1em;
     /* margin-right: 4em; */
-    padding-right:17em;
+    padding-right: 17em;
     margin-right: 40em;
     margin-left: 6em;
     color: white;
 }
-.btn:active{
-    transform:scale(0.98);
+
+.btn:active {
+    transform: scale(0.98);
 }
-p{
+
+p {
     color: white;
     margin-left: 14em;
-    margin-top: 2em;}
-.nw{
+    margin-top: 2em;
+}
+
+.nw {
     display: flex;
     justify-content: space-between;
 }
-.nw:hover{
+
+.nw:hover {
     text-decoration: underline;
 }
-.acc{
+
+.acc {
     margin-left: 6em;
     margin-top: 2em;
 }
-.hlp{
+
+.hlp {
     margin-right: 38em;
     margin-top: 2em;
     margin-left: 3em;
 }
-.footer{
+
+.footer {
     color: white;
     display: flex;
     justify-content: space-between;

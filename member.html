@@ -41,19 +41,55 @@
 
                 <div class="navmid">
                     <div id="navvideo">
-                        <video width="421px" height="209px" controls loop>
-                            <iframe width="400px" height="190px"  src="https://www.youtube.com/embed/wGoJKEA6358" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </video>
+                        <img src="https://images.unsplash.com/photo-1584273421792-84b448728b38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" alt="">
                     </div>
                     <div id="navwhatever">
                         <h2>Whatever you want,we have it</h2>
                         <p id="pwhatever">New, used, vintage,white, black! you name it.</p>
                     </div>
                 </div>
-                <div id="navend">
-                    <div><form id="buttonsanavend" action=""><input type="button" value="Make"><input type="button" value="Model"><input type="button" value="Fuel Type"><input type="button" value="Mileage"></form></div>
+                <div class="navend">
+                        <form id="buttonsanavend" action="">
+                            <!-- <input type="button" value="Make"> -->
+                            <input id="make" name="make" placeholder="Make" list="make">
+                            <datalist id="make">
+                                <option value="Make">
+                                <option value="Make">
+                            </datalist>
+                            <!-- <input type="button" value="Model"> -->
+                            <input id="model" name="model" placeholder="Model" list="model">
+                            <datalist id="model">
+                                <option value="Models">
+                            </datalist>
+                            <!-- <input type="button" value="Fuel Type"> -->
+                            <input id="make" name="make" placeholder="Fuel Type" list="make">
+                            <datalist id="make">
+                                <option value="Diesel">
+                                <option value="Petrol">
+                            </datalist>
+                            <!-- <input type="button" value="Mileage"></form></div> -->
+                            <input id="make" name="make" placeholder="Mileage" list="make">
+                            <datalist id="make">
+                                <option value="Make">
+                            </datalist>
+                        </form>
                     <div id="buttonsbnavend">
-                        <input type="button"><input type="button"><input type="button">
+                        <input list="maxprices" id="maxprice" name="maxprice" placeholder="Max Price">
+                        <datalist id="maxprice">
+                            <option value=">Ksh 20,000,000">
+                            <option value="Ksh 1,000,000">   
+                        </datalist>
+                        <input list="drivetypes" id="drivetypes" name="drivetypes" placeholder="Drive Type">
+                        <datalist id="drivetypes">
+                            <option value="Manual">
+                            <option value="automatic">
+                        </datalist>
+                        
+                        <input list="type" id="type" name="type" placeholder="Type">
+                        <datalist>
+                            <option value="Electric">
+                            <option value="Self Drive">
+                        </datalist>
                         <script src="https://kit.fontawesome.com/036723f388.js" crossorigin="anonymous"></script>
                     </div>
                 </div>
@@ -181,6 +217,7 @@
                 <img src="https://bit.ly/34NYuwc" alt="">
                 <p><span>2014 Acura MDX</span> Ksh. 2,800,998*</p>
                 <ul><li>75K mi</li></ul> <i class="fa-solid fa-heart"></i>
+                        
             </div>
             <div id="acura2">
                 <img src="https://bit.ly/34NYuwc" alt="">

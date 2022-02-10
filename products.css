@@ -5,6 +5,7 @@
 }
 .logo{
     color: white;
+    padding: 30px;
 }
 .nav ul li a{
     color: white;
@@ -20,6 +21,15 @@
 .body{
     margin-top: 300px;
 }
+.hr-1{
+    border: none;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0.3em;
+    background-color: orangered;
+    margin-top: -1.23em;
+}
 
 .body{
     color:white;
@@ -33,6 +43,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: darken;
+
 
 }
 .intro{
@@ -142,6 +154,9 @@ background-color: red;
 .mid h1{
     margin-bottom: 20px;
 }
+.mid p{
+    margin-top: 30px;
+}
 .foot{
     background-color: black;
     color: white;
@@ -161,5 +176,11 @@ color: black;
 .log2{
     float: right;
     display: flex;
+}
+#foot2 h2{
+    color: red;
+}
+#foot4{
+    margin-top: 20px;
 }
 

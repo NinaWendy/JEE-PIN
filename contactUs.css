@@ -3,11 +3,26 @@
     background-position: center;
     height: 80vh;
     background-size: cover;
+    
+}
+.pin{
+    display: flex;
+    float: left;
+
 }
 .conc{
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.homes{
+    margin-right: 400px;
 
+}
+.posing{
+    display: flex;
+    margin-right: 20px;
 }
 ul li{
     float: left;

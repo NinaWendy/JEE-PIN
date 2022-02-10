@@ -13,7 +13,7 @@
             <nav class="nav">
                 <div id="h1nav">
                     <img src="Images/external-location-.png" alt=""
-                   width="24.6" height="39.24" ><h1>JEE-PIN</h1>
+                   width="24.6" height="39.24" ><img src="" alt=""><h1>JEE-PIN</h1>
                 </div>
                 <div id="navdiv">
                     <ul>
@@ -35,13 +35,19 @@
                         <!-- <li></li>add shopping cart icon -->
                     </ul>
                 </div>
-                <div id="navbutton">
-                    <button></button>
+                <div class="search">
+                    <form action="">
+                        <img height="20.58" src="Images/search.png" alt=""><input id="navbutton" type="text" >
+                    </form>
                 </div>
 
                 <div class="navmid">
                     <div id="navvideo">
-                        <img src="https://images.unsplash.com/photo-1584273421792-84b448728b38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" alt="">
+                        <!-- <img src="https://images.unsplash.com/photo-1584273421792-84b448728b38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" alt=""> -->
+                    </div>
+                    <div id="navwhatever">
+                        <h2>Whatever you<br> want,we have it!</h2>
+                        <p id="pwhatever">New, used, vintage,white, black! you name it.</p>
                     </div>
                     <div id="navwhatever">
                         <h2>Whatever you want,we have it</h2>
@@ -51,45 +57,55 @@
                 <div class="navend">
                         <form id="buttonsanavend" action="">
                             <!-- <input type="button" value="Make"> -->
-                            <input id="make" name="make" placeholder="Make" list="make">
-                            <datalist id="make">
-                                <option value="Make">
-                                <option value="Make">
+                            <input list="makes" name="make" id="make" placeholder="Make">
+                            <datalist id="makes">
+                              <option value="BMW">
+                              <option value="Audi">
+                              <option value="Jeep">
+                              <option value="Subaru">
+                              <option value="Vitz">
                             </datalist>
                             <!-- <input type="button" value="Model"> -->
-                            <input id="model" name="model" placeholder="Model" list="model">
-                            <datalist id="model">
-                                <option value="Models">
+                            <input list="models" name="make" id="make" placeholder="Model">
+                            <datalist id="models">
+                              <option value="Sedan">
+                              <option value="Saloon">
+                              <option value="Van">
+                              <option value="Bus">
+                              <option value="Pickup">
                             </datalist>
                             <!-- <input type="button" value="Fuel Type"> -->
-                            <input id="make" name="make" placeholder="Fuel Type" list="make">
-                            <datalist id="make">
-                                <option value="Diesel">
-                                <option value="Petrol">
+                            <input list="fueltype" name="make" id="make" placeholder="Fuel Type">
+                            <datalist id="fueltype">
+                              <option value="Diesel">
+                              <option value="Petrol">
                             </datalist>
                             <!-- <input type="button" value="Mileage"></form></div> -->
-                            <input id="make" name="make" placeholder="Mileage" list="make">
-                            <datalist id="make">
-                                <option value="Make">
+                            <input list="mileage" name="make" id="make" placeholder="Mileage">
+                            <datalist id="mileage">
+                              <option value="Zero mileage">
+                              <option value="<100,000 km">
                             </datalist>
                         </form>
                     <div id="buttonsbnavend">
-                        <input list="maxprices" id="maxprice" name="maxprice" placeholder="Max Price">
-                        <datalist id="maxprice">
-                            <option value=">Ksh 20,000,000">
-                            <option value="Ksh 1,000,000">   
-                        </datalist>
-                        <input list="drivetypes" id="drivetypes" name="drivetypes" placeholder="Drive Type">
-                        <datalist id="drivetypes">
-                            <option value="Manual">
-                            <option value="automatic">
-                        </datalist>
+                        <input list="max" name="make" id="make" placeholder="Max Price">
+                            <datalist id="max">
+                              <option value="=>Ksh 1,000,000">
+                              <option value="=>Ksh 20,000,000">
+                            </datalist>
+
+                            <input list="drivetype" name="make" id="make" placeholder="Drive Type">
+                            <datalist id="drivetype">
+                              <option value="Front wheel">
+                              <option value="Four wheel">
+                              <option value="All drive">
+                            </datalist>
                         
-                        <input list="type" id="type" name="type" placeholder="Type">
-                        <datalist>
-                            <option value="Electric">
-                            <option value="Self Drive">
-                        </datalist>
+                            <input list="types" name="make" id="make" placeholder="Type">
+                            <datalist id="types">
+                              <option value="Manual">
+                              <option value="Automatic">
+                            </datalist>
                         <script src="https://kit.fontawesome.com/036723f388.js" crossorigin="anonymous"></script>
                     </div>
                 </div>

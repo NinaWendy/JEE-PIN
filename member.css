@@ -362,20 +362,10 @@ p{
     right: 32px;
     /* height: 77px; */
 }
-.contacts h3{
-    /* position: relative; */
-    /* top: 5px; */
-}
 #imgh3{
     display: flex;
     justify-content: space-evenly;
 }
-.emailus h3{
-
-}
-/* #vl button{
-    stre
-} */
 span.stretch {
     display:inline-block;
     -webkit-transform:scale(1,3);
@@ -442,4 +432,11 @@ footer p{
     display: flex;
     justify-content: space-between;
     width: 250px;
+}
+.media-icons {
+    margin-top: 2em;
+    font-size: 2em;
+    position: relative;
+    top: -110px;
+    left: 33px;
 }

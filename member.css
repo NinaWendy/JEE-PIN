@@ -362,6 +362,26 @@ p{
     right: 32px;
     /* height: 77px; */
 }
+.contacts h3{
+    /* position: relative; */
+    /* top: 5px; */
+}
+#imgh3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.emailus h3{
+
+}
+/* #vl button{
+    stre
+} */
+span.stretch {
+    display:inline-block;
+    -webkit-transform:scale(1,3);
+    padding-top: 16px;
+}
+
 .lastdiv{
     margin-top: 43px;
     background-color: black;

@@ -96,7 +96,6 @@ h1 {
 
 .jeep{
     width: 100%;
-    margin-left: 0em;
 }
 
 
@@ -116,9 +115,6 @@ h1 {
     background: orangered;
     padding: 1.5em;
     cursor: pointer;
-    padding-right: em;
-    padding-left: em;
-    padding-bottom: em;
     border: none;
     border-radius: 1.2em;
     font-size: 0.7em;

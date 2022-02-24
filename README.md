@@ -1,4 +1,4 @@
-# Portfolio
+# JEE-PIN
 
 #### By Wendy Nina, Ali Mohammed,Loiss Muthoni,Kelly Kiiru,Ludwig Murimi and James Musembi
 
@@ -28,7 +28,7 @@ Click on the live link in the about section
 
 ### Installation Process
 
-[Go Back to the top](#Portfolio)
+[Go Back to the top](#JEE-PIN)
 
 ## Technology Used
 
@@ -42,7 +42,7 @@ JavaScript -which was used to add functionality to the website.
 
 Materialize CSS
 
-[Go Back to the top](#Portfolio)
+[Go Back to the top](#JEE-PIN)
 
 # License
 
@@ -56,4 +56,7 @@ Linked-[Wendy Nina]
 Slack-[Wendy Busolo] (https://moringaclassroom.slack.com/team/U02TWDAUL90)
 
 UI Design(Figma)- [Wendy Busolo](https://www.figma.com/file/gkRpF5KClTI2i15nEaP2Ck/JEE-PIN?node-id=120%3A79)
+
+##### Link to Live Site (https://ninawendy.github.io/JEE-PIN/)
+
 [Go Back to the top](#Portfolio)
